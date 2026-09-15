@@ -1,123 +1,149 @@
-# Hi, I'm Clint Bryan Nguena
 
-### Software Engineer · AI Engineer · Computer Science Student
+# Clint Bryan Nguena
 
-I'm a Computer Science student at **Technische Hochschule Mittelhessen (THM)** with a strong interest in **Software Engineering, Artificial Intelligence and intelligent software systems**.
+### `Software Engineer` · `AI Engineer` · `Computer Science @ THM`
 
-I enjoy building practical applications that combine **modern web technologies, backend systems and AI** — from full-stack applications and REST APIs to **LLM-powered, RAG and agentic AI systems**.
+```bash
+$ whoami
+Clint Bryan Nguena
 
+$ cat interests.txt
+Software Engineering
+Artificial Intelligence
+LLMs / RAG / Agentic AI
+Full-Stack Development
+Local AI & Intelligent Automation
+
+$ mission
+Build software that is useful, reliable and
+slightly smarter than it was yesterday.
+````
 ---
 
-## 🚀 About Me
-
-* 🎓 B.Sc. Computer Science @ **THM Gießen, Germany**
-* 🤖 Focus on **AI, LLMs, RAG & Agentic AI**
-* 💻 Full-Stack Software Development
-* 🧠 Interested in **locally hosted AI and intelligent automation**
-* 🔧 Experienced with **REST APIs, databases, Docker, Git & CI/CD**
-* 🧪 Passionate about **testing, debugging and system analysis**
-* 🌍 Based in Germany
-
-Currently exploring how **LLMs and agent-based architectures** can be integrated into reliable and practical software systems.
-
----
-
-## 🛠️ Tech Stack
+## `> stack`
 
 ### Languages
 
-`Java` `Python` `C` `JavaScript` `TypeScript`
+[![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk\&logoColor=white)](https://www.java.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
+[![C](https://img.shields.io/badge/C-A8B9CC?logo=c\&logoColor=black)](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)](https://www.typescriptlang.org/)
 
 ### Frontend
 
-`React` `Vue.js` `HTML` `CSS` `Tailwind CSS`
+[![React](https://img.shields.io/badge/React-20232A?logo=react\&logoColor=61DAFB)](https://react.dev/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs\&logoColor=4FC08D)](https://vuejs.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/)
 
 ### Backend
 
-`Spring Boot` `Node.js` `REST APIs` `JSON`
+[![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring\&logoColor=white)](https://spring.io/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js\&logoColor=white)](https://nodejs.org/)
+[![REST API](https://img.shields.io/badge/REST_API-02569B?logo=fastapi\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/REST)
 
 ### AI / Data
 
-`LLMs` `RAG` `Agentic AI` `Ollama` `Qdrant` `MongoDB` `NodeRed` `N8N` `PyTorch, Numpy` `OpenUI, LibreChat`
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama\&logoColor=white)](https://ollama.com/)
+[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?logo=qdrant\&logoColor=white)](https://qdrant.tech/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch\&logoColor=white)](https://pytorch.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy\&logoColor=white)](https://numpy.org/)
+[![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n\&logoColor=white)](https://n8n.io/)
+
+```bash
+AI/
+├── LLMs
+├── RAG
+├── Agentic AI
+├── Embeddings
+├── Vector Search
+└── Automation
+```
 
 ### Databases
 
-`PostgreSQL` `MySQL` `MariaDB` `Supabase` `MongoDB`
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql\&logoColor=white)](https://www.mysql.com/)
+[![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb\&logoColor=white)](https://mariadb.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb\&logoColor=white)](https://www.mongodb.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase\&logoColor=white)](https://supabase.com/)
 
-### DevOps & Tools
+### DevOps / Tools
 
-`Docker` `Git` `CI/CD` `Linux` `Windows` `IntelliJ IDEA` `VS Code`
-
----
-
-## 💡 Featured Projects
-
-### 🎫 Enterprise Ticket Management System
-
-A full-stack ticket management platform with role-based access, automated ticket prioritization, analytics and AI-powered chatbot functionality.
-
-**Java 21 · Spring Boot · Spring Security · React · PostgreSQL · LLM**
-
-### 🔐 Secure Notes
-
-A full-stack application focused on secure note management, REST API development, database integration and containerization.
-
-**Java · Vue.js · Supabase · Docker**
-
-### 🏠 WG-TaskManager
-
-A web application designed to simplify task management and organization in shared student apartments.
-
-**JavaScript · HTML · CSS**
-
-### 🤖 AI & RAG Research
-
-Research and experimentation with **locally hosted LLMs, Small Language Models, Retrieval-Augmented Generation and agentic workflows**.
-
-**Python · Ollama · Qdrant · MongoDB · Node-RED**
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)](https://www.docker.com/)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git\&logoColor=white)](https://git-scm.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux\&logoColor=black)](https://www.linux.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github\&logoColor=white)](https://github.com/)
+[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode\&logoColor=white)](https://code.visualstudio.com/)
+[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?logo=intellijidea\&logoColor=white)](https://www.jetbrains.com/idea/)
 
 ---
 
-## 💼 Experience
-
-**AI Analysis — Internship II-THM**
-`03/2026 – 06/2026`
-
-Worked with locally hosted LLMs and SLMs and explored the integration of RAG approaches and agentic workflows into software systems.
-
-**Web Developer — SisterSchola Clinic**
-`02/2025 – 03/2026`
-
-Developed a web-based application for internal clinic processes, including database integration, email functionality, testing, debugging and performance analysis.
-
----
-
-## 📊 What I Like Building
+## `> experience`
 
 ```text
-AI Systems          ████████████████████  LLM · RAG · Agents
-Backend Development ███████████████████   Java · Spring Boot · APIs
-Web Development     ██████████████████    React · Vue · JavaScript
-Data & Databases    █████████████████     PostgreSQL · MongoDB · Qdrant
-DevOps              ███████████████       Docker · Git · CI/CD
+03/2026 — 06/2026
+AI Analysis · Internship II-THM
+
+→ Local LLM / SLM experimentation
+→ RAG architectures
+→ Agentic workflows
+→ AI integration into software systems
+```
+
+```text
+02/2025 — 03/2026
+Web Developer · SisterSchola Clinic
+
+→ Web application development
+→ Database integration
+→ Email functionality
+→ Testing & debugging
+→ Performance analysis
 ```
 
 ---
 
-## 🌐 Languages
+## `> currently_learning`
 
-🇫🇷 French — Native
-🇩🇪 German — C1
-🇬🇧 English — B2
+```bash
+$ git status
+
+On branch: learning
+
+modified:
+  + AI engineering
+  + agentic systems
+  + RAG architectures
+  + software architecture
+  + automation
+
+nothing committed yet.
+```
 
 ---
 
-## 📫 Let's Connect
+## `> languages`
 
-* 💻 [GitHub](https://github.com/Clintbr)
-* 🌐 [Portfolio](https://clintbr.github.io/mein_Portfolio)
-* 📧 **[nguenaclintbryan@gmail.com](mailto:nguenaclintbryan@gmail.com)**
+```text
+French     ████████████████████  Native
+German     ██████████████████░░  C1
+English    ████████████████░░░░  B2
+```
 
 ---
 
-> **Building software. Exploring AI. Turning ideas into working systems.**
+## `> contact`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Clintbr-181717?logo=github\&logoColor=white)](https://github.com/Clintbr)
+[![Portfolio](https://img.shields.io/badge/Portfolio-clintbr.github.io-2E86AB?logo=googlechrome\&logoColor=white)](https://clintbr.github.io/mein_Portfolio)
+[![Email](https://img.shields.io/badge/Email-nguenaclintbryan%40gmail.com-EA4335?logo=gmail\&logoColor=white)](mailto:nguenaclintbryan@gmail.com)
+
+```bash
+$ echo "Building software. Exploring AI. Shipping ideas."
+
+Building software. Exploring AI. Shipping ideas.
+```
