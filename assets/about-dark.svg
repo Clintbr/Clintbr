@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="About Clint Bryan Nguena - Terminal Profile">
+  <style>
+    .terminal-title { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #94a3b8; }
+    .cmd { font: 700 14px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #38bdf8; }
+    .prop-label { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #64748b; }
+    .prop-value { font: 500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #e2e8f0; }
+    .quote-text { font: italic 500 14px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #38bdf8; }
+    .bullet-text { font: 500 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #cbd5e1; }
+    .check { fill: #10b981; font-weight: 700; }
+    .pill-bg { fill: rgba(56, 189, 248, 0.1); stroke: rgba(56, 189, 248, 0.3); stroke-width: 1; }
+    .pill-text { font: 700 11px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #38bdf8; }
+  </style>
+
+  <defs>
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#080c16"/>
+    </linearGradient>
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Window Frame -->
+  <rect width="1200" height="350" rx="14" fill="url(#termGrad)"/>
+  <rect width="1198" height="348" x="1" y="1" rx="13" fill="none" stroke="url(#termBorder)" stroke-width="1.5"/>
+
+  <!-- Top Title Bar -->
+  <path d="M 1 14 Q 1 1 14 1 L 1186 1 Q 1199 1 1199 14 L 1199 42 L 1 42 Z" fill="#0b1120"/>
+  <line x1="1" y1="42" x2="1199" y2="42" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- macOS-style Window Buttons -->
+  <circle cx="28" cy="22" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="68" cy="22" r="6" fill="#10b981"/>
+
+  <text x="600" y="26" text-anchor="middle" class="terminal-title">clint@thm-dev:~ (zsh) — 80x24</text>
+  
+  <rect x="1055" y="12" width="120" height="20" rx="4" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+  <text x="1115" y="26" text-anchor="middle" font-size="11" font-family="'Cascadia Code', Consolas, monospace" font-weight="600" fill="#10b981">● ONLINE</text>
+
+  <!-- Left Card: Whoami Profile -->
+  <g>
+    <rect x="24" y="60" width="564" height="266" rx="10" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1"/>
+    
+    <text x="46" y="94" class="cmd">$ whoami --verbose</text>
+
+    <!-- Property Rows -->
+    <g transform="translate(46, 128)">
+      <text x="0" y="0" class="prop-label">NAME        :</text>
+      <text x="110" y="0" class="prop-value" font-weight="600">Clint Bryan Nguena</text>
+    </g>
+    <g transform="translate(46, 158)">
+      <text x="0" y="0" class="prop-label">ROLE        :</text>
+      <text x="110" y="0" class="prop-value">Software Engineer · AI &amp; Agentic Systems</text>
+    </g>
+    <g transform="translate(46, 188)">
+      <text x="0" y="0" class="prop-label">ALMA MATER  :</text>
+      <text x="110" y="0" class="prop-value">Computer Science @ THM Gießen</text>
+    </g>
+    <g transform="translate(46, 218)">
+      <text x="0" y="0" class="prop-label">LOCATION    :</text>
+      <text x="110" y="0" class="prop-value">Gießen, Hesse, Germany 🇩🇪</text>
+    </g>
+    <g transform="translate(46, 248)">
+      <text x="0" y="0" class="prop-label">DOMAINS     :</text>
+      <text x="110" y="0" class="prop-value">LLMs / RAG · Autonomous Agents · Full-Stack</text>
+    </g>
+
+    <!-- Status Badges -->
+    <g transform="translate(46, 280)">
+      <rect x="0" y="0" width="110" height="26" rx="6" class="pill-bg"/>
+      <text x="55" y="17" text-anchor="middle" class="pill-text">● THM GIESSEN</text>
+
+      <rect x="120" y="0" width="130" height="26" rx="6" fill="rgba(99, 102, 241, 0.1)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+      <text x="185" y="17" text-anchor="middle" font-size="11" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#818cf8">AGENTIC AI LAB</text>
+
+      <rect x="260" y="0" width="150" height="26" rx="6" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+      <text x="335" y="17" text-anchor="middle" font-size="11" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#34d399">OPEN TO PROJECTS</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Mission & Engineering Tenets -->
+  <g>
+    <rect x="612" y="60" width="564" height="266" rx="10" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(99, 102, 241, 0.15)" stroke-width="1"/>
+    
+    <text x="634" y="94" class="cmd">$ cat mission.txt</text>
+
+    <!-- Mission Callout Box -->
+    <rect x="634" y="108" width="520" height="66" rx="8" fill="rgba(56, 189, 248, 0.05)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="650" y="134" class="quote-text">“Build software that is useful, reliable and</text>
+    <text x="650" y="156" class="quote-text"> slightly smarter than it was yesterday.”</text>
+
+    <!-- Tenets Section -->
+    <text x="634" y="204" class="cmd">$ cat engineering_tenets.log</text>
+
+    <g transform="translate(634, 230)">
+      <text x="0" y="0" class="check">✔</text>
+      <text x="20" y="0" class="bullet-text">Autonomous Agents &amp; Local SLM Experimentation</text>
+    </g>
+    <g transform="translate(634, 258)">
+      <text x="0" y="0" class="check">✔</text>
+      <text x="20" y="0" class="bullet-text">High-Precision RAG &amp; Vector Retrieval (Qdrant)</text>
+    </g>
+    <g transform="translate(634, 286)">
+      <text x="0" y="0" class="check">✔</text>
+      <text x="20" y="0" class="bullet-text">Enterprise-Grade Full-Stack (Spring Boot · React · Node)</text>
+    </g>
+  </g>
+</svg>
+

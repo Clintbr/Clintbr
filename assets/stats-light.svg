@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Clint Bryan Nguena - Languages and Active Learning">
+  <style>
+    .card-heading { font: 800 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; letter-spacing: 1px; }
+    .card-sub { font: 500 12px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #475569; }
+    
+    .lang-name { font: 700 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; }
+    .lang-level { font: 600 11.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0284c7; }
+    
+    .track-title { font: 700 12.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; }
+    .track-desc { font: 500 10.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #475569; }
+    
+    .progress-bg { fill: #e2e8f0; rx: 4px; }
+    .track-bg { fill: #f8fafc; stroke: #e2e8f0; stroke-width: 1; rx: 6px; }
+  </style>
+
+  <defs>
+    <linearGradient id="statsBgLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Language Progress Gradients -->
+    <linearGradient id="barFRLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="barDELight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="barENLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#statsBgLight)"/>
+  <rect width="1198" height="318" x="1" y="1" rx="15" fill="none" stroke="rgba(2, 132, 199, 0.2)" stroke-width="1.5"/>
+
+  <!-- ==================== LEFT CARD: SPOKEN LANGUAGES ==================== -->
+  <g transform="translate(24, 20)">
+    <rect width="564" height="280" rx="12" fill="#ffffff" stroke="rgba(2, 132, 199, 0.2)" stroke-width="1.2"/>
+    
+    <text x="24" y="34" class="card-heading">COMMUNICATION &amp; LANGUAGES</text>
+    <text x="24" y="54" class="card-sub">&gt; Multilingual fluency across international engineering teams</text>
+    <line x1="24" y1="66" x2="540" y2="66" stroke="rgba(2, 132, 199, 0.15)" stroke-width="1"/>
+
+    <!-- French: Native -->
+    <g transform="translate(24, 82)">
+      <text x="0" y="14" class="lang-name">French (Français)</text>
+      <text x="516" y="14" text-anchor="end" class="lang-level" fill="#0284c7">NATIVE · 100%</text>
+      
+      <!-- Progress Bar (Full) -->
+      <rect x="0" y="24" width="516" height="8" class="progress-bg"/>
+      <rect x="0" y="24" width="516" height="8" rx="4" fill="url(#barFRLight)"/>
+    </g>
+
+    <!-- German: C1 -->
+    <g transform="translate(24, 134)">
+      <text x="0" y="14" class="lang-name">German (Deutsch)</text>
+      <text x="516" y="14" text-anchor="end" class="lang-level" fill="#059669">C1 PROFESSIONAL · 90%</text>
+      
+      <!-- Progress Bar (90% = 464px) -->
+      <rect x="0" y="24" width="516" height="8" class="progress-bg"/>
+      <rect x="0" y="24" width="464" height="8" rx="4" fill="url(#barDELight)"/>
+    </g>
+
+    <!-- English: B2 -->
+    <g transform="translate(24, 186)">
+      <text x="0" y="14" class="lang-name">English</text>
+      <text x="516" y="14" text-anchor="end" class="lang-level" fill="#d97706">B2 UPPER-INTERMEDIATE · 78%</text>
+      
+      <!-- Progress Bar (78% = 402px) -->
+      <rect x="0" y="24" width="516" height="8" class="progress-bg"/>
+      <rect x="0" y="24" width="402" height="8" rx="4" fill="url(#barENLight)"/>
+    </g>
+
+    <!-- Footnote -->
+    <g transform="translate(24, 248)">
+      <circle cx="6" cy="6" r="3.5" fill="#059669"/>
+      <text x="18" y="10" font-size="11" font-family="'Cascadia Code', Consolas, monospace" fill="#475569">Active working languages in academic research &amp; software development</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT CARD: LEARNING ROADMAP ==================== -->
+  <g transform="translate(612, 20)">
+    <rect width="564" height="280" rx="12" fill="#ffffff" stroke="rgba(79, 70, 229, 0.2)" stroke-width="1.2"/>
+    
+    <text x="24" y="34" class="card-heading">ACTIVE BRANCH: learning</text>
+    <text x="24" y="54" class="card-sub">&gt; $ git status: 4 advanced research &amp; exploration tracks</text>
+    <line x1="24" y1="66" x2="540" y2="66" stroke="rgba(79, 70, 229, 0.15)" stroke-width="1"/>
+
+    <!-- Track 1: Agentic Systems -->
+    <g transform="translate(24, 76)">
+      <rect width="516" height="42" class="track-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#7c3aed"/>
+      <text x="28" y="18" class="track-title">Autonomous Agentic Systems</text>
+      <text x="28" y="33" class="track-desc">Tool orchestration · Multi-agent consensus · Self-correcting workflows</text>
+    </g>
+
+    <!-- Track 2: Advanced RAG -->
+    <g transform="translate(24, 124)">
+      <rect width="516" height="42" class="track-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#0284c7"/>
+      <text x="28" y="18" class="track-title">Advanced RAG &amp; Hybrid Retrieval</text>
+      <text x="28" y="33" class="track-desc">Qdrant vector clustering · Dense/sparse fusion · Re-ranking algorithms</text>
+    </g>
+
+    <!-- Track 3: Local SLM Fine-Tuning -->
+    <g transform="translate(24, 172)">
+      <rect width="516" height="42" class="track-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#059669"/>
+      <text x="28" y="18" class="track-title">Local SLMs &amp; On-Device Optimization</text>
+      <text x="28" y="33" class="track-desc">Ollama inference tuning · 4-bit quantization · Edge AI deployment</text>
+    </g>
+
+    <!-- Track 4: Distributed Systems -->
+    <g transform="translate(24, 220)">
+      <rect width="516" height="42" class="track-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#d97706"/>
+      <text x="28" y="18" class="track-title">Enterprise Systems Architecture</text>
+      <text x="28" y="33" class="track-desc">High-concurrency Spring Boot microservices &amp; event-driven messaging</text>
+    </g>
+  </g>
+</svg>
+

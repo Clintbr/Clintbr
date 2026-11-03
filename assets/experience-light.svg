@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="455" viewBox="0 0 1200 455" role="img" aria-label="Clint Bryan Nguena - Experience &amp; Milestones">
+  <style>
+    .section-title { font: 800 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; letter-spacing: 1.5px; }
+    .section-subtitle { font: 500 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #475569; }
+    .period-pill { font: 700 11.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0284c7; }
+    
+    .company-title { font: 800 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; }
+    .role-badge { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0284c7; }
+    
+    .tech-tag-bg { fill: rgba(2, 132, 199, 0.08); stroke: rgba(2, 132, 199, 0.25); stroke-width: 1; rx: 4px; }
+    .tech-tag-text { font: 700 10.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0369a1; }
+
+    .bullet-arrow { fill: #0284c7; font-weight: 700; font-size: 14px; font-family: monospace; }
+    .bullet-content { font: 500 12.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #334155; }
+    
+    .edu-title { font: 700 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; }
+    .edu-desc { font: 500 12px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #475569; }
+  </style>
+
+  <defs>
+    <linearGradient id="expBgLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad1Light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2Light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="455" rx="16" fill="url(#expBgLight)"/>
+  <rect width="1198" height="453" x="1" y="1" rx="15" fill="none" stroke="rgba(2, 132, 199, 0.2)" stroke-width="1.5"/>
+
+  <!-- Top Header Section -->
+  <g transform="translate(32, 40)">
+    <text x="0" y="0" class="section-title">// PRACTICAL EXPERIENCE &amp; TRACK RECORD</text>
+    <text x="0" y="24" class="section-subtitle">&gt; Applied industry engineering, local AI experimentation &amp; web architecture</text>
+  </g>
+
+  <!-- Status pill top right -->
+  <g transform="translate(945, 24)">
+    <rect x="0" y="0" width="222" height="34" rx="17" fill="rgba(2, 132, 199, 0.08)" stroke="rgba(2, 132, 199, 0.25)" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4" fill="#059669"/>
+    <text x="32" y="21" class="period-pill">INTERNSHIPS &amp; INDUSTRY</text>
+  </g>
+
+  <!-- ==================== LEFT CARD: AI ANALYSIS AT THM ==================== -->
+  <g transform="translate(24, 82)">
+    <rect width="564" height="268" rx="12" fill="#ffffff" stroke="url(#cardGrad1Light)" stroke-width="1.5"/>
+
+    <!-- Period badge top right of card -->
+    <rect x="390" y="18" width="156" height="26" rx="13" fill="rgba(2, 132, 199, 0.08)" stroke="rgba(2, 132, 199, 0.25)" stroke-width="1"/>
+    <text x="468" y="35" text-anchor="middle" class="period-pill">03/2026 — 06/2026</text>
+
+    <!-- Role and Company -->
+    <text x="24" y="38" class="company-title">II-THM (Forschung &amp; Lehre)</text>
+    <text x="24" y="62" class="role-badge">&gt; AI Analysis &amp; Engineering · Internship</text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(24, 78)">
+      <rect x="0" y="0" width="100" height="22" class="tech-tag-bg"/>
+      <text x="50" y="15" text-anchor="middle" class="tech-tag-text">LOCAL SLMs</text>
+
+      <rect x="108" y="0" width="118" height="22" class="tech-tag-bg"/>
+      <text x="167" y="15" text-anchor="middle" class="tech-tag-text">RAG PIPELINES</text>
+
+      <rect x="234" y="0" width="128" height="22" class="tech-tag-bg"/>
+      <text x="298" y="15" text-anchor="middle" class="tech-tag-text">AGENTIC FLOWS</text>
+
+      <rect x="370" y="0" width="124" height="22" class="tech-tag-bg"/>
+      <text x="432" y="15" text-anchor="middle" class="tech-tag-text">AI INTEGRATION</text>
+    </g>
+
+    <!-- Deliverables -->
+    <g transform="translate(24, 130)">
+      <text x="0" y="0" class="bullet-arrow">→</text>
+      <text x="20" y="0" class="bullet-content">Local LLM / SLM experimentation &amp; latency/throughput benchmarking</text>
+    </g>
+    <g transform="translate(24, 162)">
+      <text x="0" y="0" class="bullet-arrow">→</text>
+      <text x="20" y="0" class="bullet-content">Architected context-augmented RAG pipelines with vector databases</text>
+    </g>
+    <g transform="translate(24, 194)">
+      <text x="0" y="0" class="bullet-arrow">→</text>
+      <text x="20" y="0" class="bullet-content">Developed autonomous agentic workflows with iterative tool calling</text>
+    </g>
+    <g transform="translate(24, 226)">
+      <text x="0" y="0" class="bullet-arrow">→</text>
+      <text x="20" y="0" class="bullet-content">End-to-end integration of intelligent AI services into software platforms</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT CARD: WEB DEVELOPER ==================== -->
+  <g transform="translate(612, 82)">
+    <rect width="564" height="268" rx="12" fill="#ffffff" stroke="url(#cardGrad2Light)" stroke-width="1.5"/>
+
+    <!-- Period badge top right of card -->
+    <rect x="390" y="18" width="156" height="26" rx="13" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+    <text x="468" y="35" text-anchor="middle" class="period-pill" fill="#059669">02/2025 — 03/2026</text>
+
+    <!-- Role and Company -->
+    <text x="24" y="38" class="company-title">SisterSchola Clinic</text>
+    <text x="24" y="62" class="role-badge" fill="#059669">&gt; Full-Stack Web Developer</text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(24, 78)">
+      <rect x="0" y="0" width="124" height="22" rx="4" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+      <text x="62" y="15" text-anchor="middle" font-size="10.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#047857">WEB APPLICATION</text>
+
+      <rect x="132" y="0" width="124" height="22" rx="4" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+      <text x="194" y="15" text-anchor="middle" font-size="10.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#047857">DATABASE DESIGN</text>
+
+      <rect x="264" y="0" width="118" height="22" rx="4" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+      <text x="323" y="15" text-anchor="middle" font-size="10.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#047857">EMAIL SYSTEMS</text>
+
+      <rect x="390" y="0" width="124" height="22" rx="4" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+      <text x="452" y="15" text-anchor="middle" font-size="10.5" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#047857">PERFORMANCE QA</text>
+    </g>
+
+    <!-- Deliverables -->
+    <g transform="translate(24, 130)">
+      <text x="0" y="0" class="bullet-arrow" fill="#059669">→</text>
+      <text x="20" y="0" class="bullet-content">Engineered responsive clinic web applications with modern frontend &amp; backend</text>
+    </g>
+    <g transform="translate(24, 162)">
+      <text x="0" y="0" class="bullet-arrow" fill="#059669">→</text>
+      <text x="20" y="0" class="bullet-content">Designed relational database models, persistent schemas &amp; query logic</text>
+    </g>
+    <g transform="translate(24, 194)">
+      <text x="0" y="0" class="bullet-arrow" fill="#059669">→</text>
+      <text x="20" y="0" class="bullet-content">Automated patient notification pipelines and robust email dispatching workflows</text>
+    </g>
+    <g transform="translate(24, 226)">
+      <text x="0" y="0" class="bullet-arrow" fill="#059669">→</text>
+      <text x="20" y="0" class="bullet-content">Conducted continuous QA, debugging, profiling, and loading speed audits</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM BANNER: ACADEMIC FOUNDATION ==================== -->
+  <g transform="translate(24, 365)">
+    <rect width="1152" height="70" rx="10" fill="#ffffff" stroke="rgba(79, 70, 229, 0.2)" stroke-width="1"/>
+    
+    <!-- Left Icon / Badge -->
+    <rect x="18" y="16" width="38" height="38" rx="8" fill="rgba(79, 70, 229, 0.08)" stroke="rgba(79, 70, 229, 0.25)" stroke-width="1"/>
+    <text x="37" y="41" text-anchor="middle" font-size="18">🎓</text>
+
+    <!-- Text info -->
+    <text x="70" y="32" class="edu-title">ACADEMIC FOUNDATION: Computer Science @ THM Gießen</text>
+    <text x="70" y="52" class="edu-desc">&gt; Core Focus: Software Engineering · Distributed Systems · Artificial Intelligence · Data Structures</text>
+
+    <!-- Location & Status Badge -->
+    <rect x="990" y="20" width="144" height="28" rx="14" fill="rgba(5, 150, 105, 0.08)" stroke="rgba(5, 150, 105, 0.25)" stroke-width="1"/>
+    <circle cx="1006" cy="34" r="3.5" fill="#059669"/>
+    <text x="1018" y="38" font-size="11" font-family="'Cascadia Code', Consolas, monospace" font-weight="700" fill="#047857">ENROLLED @ THM</text>
+  </g>
+</svg>
+

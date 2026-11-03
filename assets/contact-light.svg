@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Connect with Clint Bryan Nguena">
+  <style>
+    .connect-title { font: 800 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; letter-spacing: 1.5px; }
+    .connect-sub { font: 500 12.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #475569; }
+    
+    .echo-cmd { font: 700 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0284c7; }
+    .echo-out { font: italic 500 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #334155; }
+    
+    .chip-label { font: 700 11px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #0284c7; }
+    .chip-val { font: 600 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #0f172a; }
+    
+    .chip-box { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 8px; }
+  </style>
+
+  <defs>
+    <linearGradient id="contactBgLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <linearGradient id="contactBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="200" rx="16" fill="url(#contactBgLight)"/>
+  <rect width="1198" height="198" x="1" y="1" rx="15" fill="none" stroke="url(#contactBorderLight)" stroke-width="1.5"/>
+
+  <!-- Left Side: Message & Motto -->
+  <g transform="translate(36, 40)">
+    <text x="0" y="0" class="connect-title">// LET'S CONNECT &amp; BUILD TOGETHER</text>
+    <text x="0" y="24" class="connect-sub">&gt; Open to collaborative projects, research initiatives &amp; engineering opportunities</text>
+    
+    <!-- Terminal Echo Box -->
+    <g transform="translate(0, 48)">
+      <rect width="530" height="52" rx="8" fill="#f1f5f9" stroke="rgba(2, 132, 199, 0.2)" stroke-width="1"/>
+      <text x="16" y="22" class="echo-cmd">$ echo "Building software. Exploring AI. Shipping ideas."</text>
+      <text x="16" y="40" class="echo-out">Building software. Exploring AI. Shipping ideas.</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Interactive-styled Contact Badges -->
+  <g transform="translate(610, 34)">
+    <!-- GitHub -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="56" class="chip-box"/>
+      <text x="16" y="24" class="chip-label">🐙 GITHUB</text>
+      <text x="16" y="44" class="chip-val">github.com/Clintbr</text>
+    </g>
+
+    <!-- Portfolio -->
+    <g transform="translate(280, 0)">
+      <rect width="274" height="56" class="chip-box"/>
+      <text x="16" y="24" class="chip-label" fill="#059669">🌐 PORTFOLIO</text>
+      <text x="16" y="44" class="chip-val">clintbr.github.io/mein_Portfolio</text>
+    </g>
+
+    <!-- Email -->
+    <g transform="translate(0, 70)">
+      <rect width="260" height="56" class="chip-box"/>
+      <text x="16" y="24" class="chip-label" fill="#e11d48">✉ DIRECT EMAIL</text>
+      <text x="16" y="44" class="chip-val">nguenaclintbryan@gmail.com</text>
+    </g>
+
+    <!-- Location -->
+    <g transform="translate(280, 70)">
+      <rect width="274" height="56" class="chip-box"/>
+      <text x="16" y="24" class="chip-label" fill="#d97706">📍 BASE</text>
+      <text x="16" y="44" class="chip-val">Gießen, Hesse, Germany 🇩🇪</text>
+    </g>
+  </g>
+</svg>
+

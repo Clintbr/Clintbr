@@ -1,0 +1,369 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810" role="img" aria-label="Clint Bryan Nguena - Complete Technical Arsenal">
+  <style>
+    .section-title { font: 800 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #f8fafc; letter-spacing: 1.5px; }
+    .section-subtitle { font: 500 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #94a3b8; }
+    .header-pill { font: 700 11px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #38bdf8; }
+    
+    .card-title { font: 700 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; letter-spacing: 1px; }
+    .tech-name { font: 700 12.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #f1f5f9; }
+    .tech-desc { font: 500 10.5px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #94a3b8; }
+    
+    .item-bg { fill: rgba(15, 23, 42, 0.65); stroke: rgba(148, 163, 184, 0.12); stroke-width: 1; rx: 8px; }
+  </style>
+
+  <defs>
+    <linearGradient id="mainBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <!-- Card Backgrounds & Borders -->
+    <linearGradient id="cardBorderA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardBorderB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardBorderC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardBorderD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardBorderE" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3ecf8e" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardBorderF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="810" rx="16" fill="url(#mainBg)"/>
+  <rect width="1198" height="808" x="1" y="1" rx="15" fill="none" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1.5"/>
+
+  <!-- Top Header Section -->
+  <g transform="translate(32, 42)">
+    <text x="0" y="0" class="section-title">// TECHNICAL ARSENAL &amp; ARCHITECTURE MATRIX</text>
+    <text x="0" y="24" class="section-subtitle">&gt; Full-Stack Engineering · Autonomous Agents &amp; SLMs · Distributed DBs · DevOps</text>
+  </g>
+
+  <!-- Metric Counter Pill -->
+  <g transform="translate(930, 26)">
+    <rect x="0" y="0" width="238" height="34" rx="17" fill="rgba(56, 189, 248, 0.08)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4" fill="#38bdf8"/>
+    <text x="32" y="21" class="header-pill">34 TECHNOLOGIES · 6 PILLARS</text>
+  </g>
+
+  <!-- ==================== ROW 1 ==================== -->
+
+  <!-- CARD 1: AI & INTELLIGENT SYSTEMS -->
+  <g transform="translate(24, 86)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderA)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#c084fc">01 / AI &amp; INTELLIGENT SYSTEMS</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(168, 85, 247, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: Ollama / SLMs -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#c084fc"/>
+      <text x="28" y="18" class="tech-name">Ollama &amp; Local SLMs</text>
+      <text x="28" y="33" class="tech-desc">Offline Quantized Inference · Privacy-First AI</text>
+    </g>
+    <!-- Item 2: RAG Systems -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#38bdf8"/>
+      <text x="28" y="18" class="tech-name">RAG Architectures</text>
+      <text x="28" y="33" class="tech-desc">Context Augmentation · Semantic Vector Retrieval</text>
+    </g>
+    <!-- Item 3: Agentic AI -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#a855f7"/>
+      <text x="28" y="18" class="tech-name">Agentic AI &amp; Multi-Agent</text>
+      <text x="28" y="33" class="tech-desc">Autonomous Tool-Calling · Reasoning Loops</text>
+    </g>
+    <!-- Item 4: Qdrant Vector DB -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f43f5e"/>
+      <text x="28" y="18" class="tech-name">Qdrant Vector DB</text>
+      <text x="28" y="33" class="tech-desc">High-Dim Similarity Search · Payload Indexing</text>
+    </g>
+    <!-- Item 5: PyTorch & NumPy -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f97316"/>
+      <text x="28" y="18" class="tech-name">PyTorch &amp; NumPy</text>
+      <text x="28" y="33" class="tech-desc">Tensor Operations · Neural Net Foundations</text>
+    </g>
+    <!-- Item 6: n8n Automation -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#ec4899"/>
+      <text x="28" y="18" class="tech-name">n8n Automation &amp; Embeddings</text>
+      <text x="28" y="33" class="tech-desc">Autonomous Orchestration · Event-Driven Flows</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: CORE PROGRAMMING LANGUAGES -->
+  <g transform="translate(416, 86)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderB)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#60a5fa">02 / CORE LANGUAGES</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(59, 130, 246, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: Java -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f59e0b"/>
+      <text x="28" y="18" class="tech-name">Java</text>
+      <text x="28" y="33" class="tech-desc">Enterprise OOP · JVM · Robust Backend Services</text>
+    </g>
+    <!-- Item 2: Python -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#38bdf8"/>
+      <text x="28" y="18" class="tech-name">Python</text>
+      <text x="28" y="33" class="tech-desc">AI/ML Pipelines · Fast Automation · Async APIs</text>
+    </g>
+    <!-- Item 3: TypeScript -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#60a5fa"/>
+      <text x="28" y="18" class="tech-name">TypeScript</text>
+      <text x="28" y="33" class="tech-desc">Strict Typing · Scalable Application Arch</text>
+    </g>
+    <!-- Item 4: JavaScript -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#facc15"/>
+      <text x="28" y="18" class="tech-name">JavaScript (ES6+)</text>
+      <text x="28" y="33" class="tech-desc">Modern Asynchronous Events · Full-Stack Web</text>
+    </g>
+    <!-- Item 5: C -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#94a3b8"/>
+      <text x="28" y="18" class="tech-name">C</text>
+      <text x="28" y="33" class="tech-desc">Memory Management · Low-Level Systems</text>
+    </g>
+    <!-- Item 6: SQL & Shell -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#34d399"/>
+      <text x="28" y="18" class="tech-name">SQL &amp; Bash Scripting</text>
+      <text x="28" y="33" class="tech-desc">Relational Queries · POSIX Shell Automation</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: BACKEND & SYSTEM ARCHITECTURE -->
+  <g transform="translate(808, 86)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderC)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#34d399">03 / BACKEND &amp; ARCHITECTURE</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: Spring Framework -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#10b981"/>
+      <text x="28" y="18" class="tech-name">Spring &amp; Spring Boot</text>
+      <text x="28" y="33" class="tech-desc">Enterprise Dependency Injection · Security · Data JPA</text>
+    </g>
+    <!-- Item 2: Node.js -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#22c55e"/>
+      <text x="28" y="18" class="tech-name">Node.js</text>
+      <text x="28" y="33" class="tech-desc">High-Concurrency Asynchronous Runtime</text>
+    </g>
+    <!-- Item 3: RESTful APIs -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#06b6d4"/>
+      <text x="28" y="18" class="tech-name">REST API Architecture</text>
+      <text x="28" y="33" class="tech-desc">Contract-First OpenAPI · Secure Endpoints</text>
+    </g>
+    <!-- Item 4: FastAPI -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#059669"/>
+      <text x="28" y="18" class="tech-name">FastAPI / Python Services</text>
+      <text x="28" y="33" class="tech-desc">High-Throughput AI Endpoints &amp; Pydantic</text>
+    </g>
+    <!-- Item 5: Clean Architecture -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#818cf8"/>
+      <text x="28" y="18" class="tech-name">Clean Architecture &amp; MVC</text>
+      <text x="28" y="33" class="tech-desc">Separation of Concerns · Modular Monoliths</text>
+    </g>
+    <!-- Item 6: Integrations -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f59e0b"/>
+      <text x="28" y="18" class="tech-name">Integrations &amp; Middleware</text>
+      <text x="28" y="33" class="tech-desc">Webhooks · Email Services · Auth Pipelines</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 2 ==================== -->
+
+  <!-- CARD 4: FRONTEND & UI SYSTEMS -->
+  <g transform="translate(24, 444)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderD)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#38bdf8">04 / FRONTEND &amp; UI SYSTEMS</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(6, 182, 212, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: React -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#61dafb"/>
+      <text x="28" y="18" class="tech-name">React</text>
+      <text x="28" y="33" class="tech-desc">Hooks · Component Architecture · State Systems</text>
+    </g>
+    <!-- Item 2: Vue.js -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#42b883"/>
+      <text x="28" y="18" class="tech-name">Vue.js</text>
+      <text x="28" y="33" class="tech-desc">Composition API · Single File Components · Pinia</text>
+    </g>
+    <!-- Item 3: TailwindCSS -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#06b6d4"/>
+      <text x="28" y="18" class="tech-name">Tailwind CSS</text>
+      <text x="28" y="33" class="tech-desc">Utility-First Tokens · Responsive Dark UI</text>
+    </g>
+    <!-- Item 4: HTML5 & CSS3 -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f97316"/>
+      <text x="28" y="18" class="tech-name">HTML5 &amp; Modern CSS3</text>
+      <text x="28" y="33" class="tech-desc">Semantic Elements · CSS Grid · Smooth Keyframes</text>
+    </g>
+    <!-- Item 5: UI/UX Design -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#a855f7"/>
+      <text x="28" y="18" class="tech-name">Developer UI / UX</text>
+      <text x="28" y="33" class="tech-desc">Visual Hierarchy · Ergonomics &amp; Dashboards</text>
+    </g>
+    <!-- Item 6: Responsive -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#10b981"/>
+      <text x="28" y="18" class="tech-name">Mobile-First &amp; Performance</text>
+      <text x="28" y="33" class="tech-desc">Fast Core Web Vitals · Cross-Browser Layouts</text>
+    </g>
+  </g>
+
+  <!-- CARD 5: DATABASES & STORAGE ENGINES -->
+  <g transform="translate(416, 444)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderE)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#818cf8">05 / DATABASES &amp; STORAGE</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(99, 102, 241, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: PostgreSQL -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#3b82f6"/>
+      <text x="28" y="18" class="tech-name">PostgreSQL</text>
+      <text x="28" y="33" class="tech-desc">ACID Transactions · Complex Joins · pgvector</text>
+    </g>
+    <!-- Item 2: Supabase -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#3ecf8e"/>
+      <text x="28" y="18" class="tech-name">Supabase</text>
+      <text x="28" y="33" class="tech-desc">Realtime WebSockets · Edge Storage · Row-Level Security</text>
+    </g>
+    <!-- Item 3: Qdrant -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f43f5e"/>
+      <text x="28" y="18" class="tech-name">Qdrant Vector Store</text>
+      <text x="28" y="33" class="tech-desc">Cosine Similarity · Filtered ANN Search</text>
+    </g>
+    <!-- Item 4: MySQL & MariaDB -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#0284c7"/>
+      <text x="28" y="18" class="tech-name">MySQL &amp; MariaDB</text>
+      <text x="28" y="33" class="tech-desc">Relational Schemas · Indexing &amp; Query Optimization</text>
+    </g>
+    <!-- Item 5: MongoDB -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#22c55e"/>
+      <text x="28" y="18" class="tech-name">MongoDB</text>
+      <text x="28" y="33" class="tech-desc">BSON Document Collections · Aggregation Pipelines</text>
+    </g>
+    <!-- Item 6: Migrations & Modeling -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#eab308"/>
+      <text x="28" y="18" class="tech-name">Data Modeling &amp; Migrations</text>
+      <text x="28" y="33" class="tech-desc">Schema Normalization · Foreign Keys · Integrity</text>
+    </g>
+  </g>
+
+  <!-- CARD 6: DEVOPS & TOOLING -->
+  <g transform="translate(808, 444)">
+    <rect width="368" height="344" rx="12" fill="rgba(15, 23, 42, 0.7)" stroke="url(#cardBorderF)" stroke-width="1.5"/>
+    <text x="18" y="30" class="card-title" fill="#fb923c">06 / DEVOPS &amp; TOOLING</text>
+    <line x1="18" y1="42" x2="350" y2="42" stroke="rgba(249, 115, 22, 0.25)" stroke-width="1"/>
+
+    <!-- Item 1: Docker -->
+    <g transform="translate(16, 52)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#38bdf8"/>
+      <text x="28" y="18" class="tech-name">Docker</text>
+      <text x="28" y="33" class="tech-desc">Multi-Stage Builds · Container Isolation · Compose</text>
+    </g>
+    <!-- Item 2: Linux -->
+    <g transform="translate(16, 100)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#facc15"/>
+      <text x="28" y="18" class="tech-name">Linux &amp; Environment</text>
+      <text x="28" y="33" class="tech-desc">Server Administration · CLI Tools · Daemon Config</text>
+    </g>
+    <!-- Item 3: Git & GitHub -->
+    <g transform="translate(16, 148)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#f97316"/>
+      <text x="28" y="18" class="tech-name">Git &amp; GitHub</text>
+      <text x="28" y="33" class="tech-desc">Branching Workflows · Versioning · CI/CD Hooks</text>
+    </g>
+    <!-- Item 4: IntelliJ IDEA -->
+    <g transform="translate(16, 196)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#ec4899"/>
+      <text x="28" y="18" class="tech-name">IntelliJ IDEA</text>
+      <text x="28" y="33" class="tech-desc">Enterprise Java · Spring Profiling &amp; Refactoring</text>
+    </g>
+    <!-- Item 5: VS Code -->
+    <g transform="translate(16, 244)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#60a5fa"/>
+      <text x="28" y="18" class="tech-name">VS Code</text>
+      <text x="28" y="33" class="tech-desc">TypeScript Ecosystem · AI Extensions &amp; Debugging</text>
+    </g>
+    <!-- Item 6: QA & Testing -->
+    <g transform="translate(16, 292)">
+      <rect width="336" height="42" class="item-bg"/>
+      <circle cx="16" cy="21" r="3.5" fill="#10b981"/>
+      <text x="28" y="18" class="tech-name">QA, Testing &amp; Monitoring</text>
+      <text x="28" y="33" class="tech-desc">Unit Testing · API Verification · Performance Profiling</text>
+    </g>
+  </g>
+</svg>
+
