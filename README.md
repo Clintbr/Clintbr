@@ -69,10 +69,6 @@
 <br/>
 
 <!-- ==================== CONTACT BANNER ==================== -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
-  <img src="assets/contact-light.svg" alt="Let's Connect &amp; Build Together" width="100%">
-</picture>
 
 <br/><br/>
 
