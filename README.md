@@ -1,151 +1,94 @@
+<div align="center">
+
+<!-- ==================== HEADER ==================== -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Clint Bryan Nguena, Software & AI" width="100%">
+  <img src="assets/header-light.svg" alt="Clint Bryan Nguena — Software Engineer &amp; AI Specialist" width="100%">
 </picture>
 
-### `Software Engineer` · `AI Engineer` · `Computer Science @ THM`
+<br/>
 
-```bash
-$ whoami
-Clint Bryan Nguena
+<!-- ==================== ABOUT TERMINAL ==================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+  <img src="assets/about-light.svg" alt="Clint Bryan Nguena — Terminal Profile &amp; Mission" width="100%">
+</picture>
 
-$ cat interests.txt
-Software Engineering
-Artificial Intelligence
-LLMs / RAG / Agentic AI
-Full-Stack Development
-Local AI & Intelligent Automation
+<br/>
 
-$ mission
-Build software that is useful, reliable and
-slightly smarter than it was yesterday.
-````
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" alt="Section Divider" width="100%">
+</picture>
 
-## `> stack`
+<br/>
 
-### Languages
+<!-- ==================== TECHNICAL ARSENAL ==================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-stack-dark.svg">
+  <img src="assets/tech-stack-light.svg" alt="Complete Technical Arsenal &amp; Architecture Matrix" width="100%">
+</picture>
 
-[![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk\&logoColor=white)](https://www.java.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
-[![C](https://img.shields.io/badge/C-A8B9CC?logo=c\&logoColor=black)](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)](https://www.typescriptlang.org/)
+<br/>
 
-### Frontend
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" alt="Section Divider" width="100%">
+</picture>
 
-[![React](https://img.shields.io/badge/React-20232A?logo=react\&logoColor=61DAFB)](https://react.dev/)
-[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs\&logoColor=4FC08D)](https://vuejs.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/)
+<br/>
 
-### Backend
+<!-- ==================== EXPERIENCE & MILESTONES ==================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/experience-dark.svg">
+  <img src="assets/experience-light.svg" alt="Practical Experience &amp; Milestones" width="100%">
+</picture>
 
-[![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring\&logoColor=white)](https://spring.io/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js\&logoColor=white)](https://nodejs.org/)
-[![REST API](https://img.shields.io/badge/REST_API-02569B?logo=fastapi\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/REST)
+<br/>
 
-### AI / Data
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" alt="Section Divider" width="100%">
+</picture>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
-[![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama\&logoColor=white)](https://ollama.com/)
-[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?logo=qdrant\&logoColor=white)](https://qdrant.tech/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch\&logoColor=white)](https://pytorch.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy\&logoColor=white)](https://numpy.org/)
-[![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n\&logoColor=white)](https://n8n.io/)
+<br/>
 
-```bash
-AI/
-├── LLMs
-├── RAG
-├── Agentic AI
-├── Embeddings
-├── Vector Search
-└── Automation
-```
+<!-- ==================== SPOKEN LANGUAGES & RESEARCH ==================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" alt="Languages Proficiency &amp; Active Research Branch" width="100%">
+</picture>
 
-### Databases
+<br/>
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql\&logoColor=white)](https://www.postgresql.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql\&logoColor=white)](https://www.mysql.com/)
-[![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb\&logoColor=white)](https://mariadb.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb\&logoColor=white)](https://www.mongodb.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase\&logoColor=white)](https://supabase.com/)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" alt="Section Divider" width="100%">
+</picture>
 
-### DevOps / Tools
+<br/>
 
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)](https://www.docker.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?logo=git\&logoColor=white)](https://git-scm.com/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux\&logoColor=black)](https://www.linux.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github\&logoColor=white)](https://github.com/)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode\&logoColor=white)](https://code.visualstudio.com/)
-[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?logo=intellijidea\&logoColor=white)](https://www.jetbrains.com/idea/)
+<!-- ==================== CONTACT BANNER ==================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
+  <img src="assets/contact-light.svg" alt="Let's Connect &amp; Build Together" width="100%">
+</picture>
 
----
+<br/><br/>
 
-## `> experience`
+<!-- ==================== DIRECT CLICKABLE LINKS ==================== -->
+<a href="https://clintbr.github.io/mein_Portfolio">
+  <img src="https://img.shields.io/badge/PORTFOLIO-clintbr.github.io-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Clintbr">
+  <img src="https://img.shields.io/badge/GITHUB-Clintbr-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:nguenaclintbryan@gmail.com">
+  <img src="https://img.shields.io/badge/DIRECT_EMAIL-Contact_Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
-```text
-03/2026 — 06/2026
-AI Analysis · Internship II-THM
+<br/><br/>
 
-→ Local LLM / SLM experimentation
-→ RAG architectures
-→ Agentic workflows
-→ AI integration into software systems
-```
-
-```text
-02/2025 — 03/2026
-Web Developer · SisterSchola Clinic
-
-→ Web application development
-→ Database integration
-→ Email functionality
-→ Testing & debugging
-→ Performance analysis
-```
-
----
-
-## `> currently_learning`
-
-```bash
-$ git status
-
-On branch: learning
-
-modified:
-  + AI engineering
-  + agentic systems
-  + RAG architectures
-  + software architecture
-  + automation
-
-nothing committed yet.
-```
-
----
-
-## `> languages`
-
-```text
-French     ████████████████████  Native
-German     ██████████████████░░  C1
-English    ████████████████░░░░  B2
-```
-
----
-
-## `> contact`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Clintbr-181717?logo=github\&logoColor=white)](https://github.com/Clintbr)
-[![Portfolio](https://img.shields.io/badge/Portfolio-clintbr.github.io-2E86AB?logo=googlechrome\&logoColor=white)](https://clintbr.github.io/mein_Portfolio)
-[![Email](https://img.shields.io/badge/Email-nguenaclintbryan%40gmail.com-EA4335?logo=gmail\&logoColor=white)](mailto:nguenaclintbryan@gmail.com)
-
-```bash
-$ echo "Building software. Exploring AI. Shipping ideas."
-
-Building software. Exploring AI. Shipping ideas.
-```
+</div>

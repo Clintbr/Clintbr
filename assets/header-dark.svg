@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Clint Bryan Nguena, Software Engineer &amp; AI Specialist">
+  <style>
+    .cell { fill: #38bdf8; opacity: 0; animation: glow 6s ease-in-out infinite; }
+    @keyframes glow { 0%, 100% { opacity: 0; } 20% { opacity: 0.45; } 40% { opacity: 0; } }
+    .name { font: 800 48px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif; fill: #f8fafc; letter-spacing: 2.5px; }
+    .tag { font: 600 13px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #94a3b8; letter-spacing: 2px; }
+    .status-text { font: 600 12px 'Cascadia Code', 'Fira Code', Consolas, monospace; fill: #38bdf8; letter-spacing: 1.5px; }
+    .badge-text { font: 800 18px 'Segoe UI', sans-serif; fill: #38bdf8; }
+    
+    .role-text { font: 600 24px 'Cascadia Code', 'Fira Code', Consolas, monospace; text-anchor: middle; }
+    .r0 { fill: #38bdf8; animation: cycle0 9s ease-in-out infinite; }
+    .r1 { fill: #818cf8; animation: cycle1 9s ease-in-out infinite; }
+    .r2 { fill: #34d399; animation: cycle2 9s ease-in-out infinite; }
+    
+    @keyframes cycle0 {
+      0%, 28% { opacity: 1; transform: translateY(0); }
+      33%, 95% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cycle1 {
+      0%, 28% { opacity: 0; transform: translateY(4px); }
+      33%, 61% { opacity: 1; transform: translateY(0); }
+      66%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes cycle2 {
+      0%, 61% { opacity: 0; transform: translateY(4px); }
+      66%, 95% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    .pulse-dot { animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; r: 4; } 50% { opacity: 0.4; r: 3; } }
+    @media (prefers-reduced-motion: reduce) { 
+      .cell, .pulse-dot { animation: none; }
+      .r0 { opacity: 1; animation: none; }
+      .r1, .r2 { display: none; }
+    }
+  </style>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#0f294d"/>
+      <stop offset="50%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#050b14"/>
+    </radialGradient>
+    
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(56, 189, 248, 0.12)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGlow)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
+  <rect width="1198" height="318" x="1" y="1" rx="15" fill="none" stroke="url(#cardBorder)" stroke-width="1.5"/>
+
+  <!-- Glowing Digital Grid Points -->
+  <g>
+    <rect class="cell" x="240" y="60" width="29" height="29" style="animation-delay: 0.1s;"/>
+    <rect class="cell" x="330" y="30" width="29" height="29" style="animation-delay: 0.7s;"/>
+    <rect class="cell" x="450" y="60" width="29" height="29" style="animation-delay: 1.4s;"/>
+    <rect class="cell" x="600" y="30" width="29" height="29" style="animation-delay: 2.1s;"/>
+    <rect class="cell" x="720" y="60" width="29" height="29" style="animation-delay: 2.8s;"/>
+    <rect class="cell" x="840" y="30" width="29" height="29" style="animation-delay: 3.5s;"/>
+    <rect class="cell" x="960" y="60" width="29" height="29" style="animation-delay: 4.2s;"/>
+    <rect class="cell" x="120" y="120" width="29" height="29" style="animation-delay: 1.8s;"/>
+    <rect class="cell" x="1050" y="120" width="29" height="29" style="animation-delay: 2.4s;"/>
+    <rect class="cell" x="90" y="210" width="29" height="29" style="animation-delay: 3.1s;"/>
+    <rect class="cell" x="1080" y="210" width="29" height="29" style="animation-delay: 4.0s;"/>
+    <rect class="cell" x="180" y="270" width="29" height="29" style="animation-delay: 4.7s;"/>
+    <rect class="cell" x="990" y="270" width="29" height="29" style="animation-delay: 5.3s;"/>
+  </g>
+
+  <!-- Top Monogram Badge & Location Tag -->
+  <g>
+    <rect x="36" y="28" width="52" height="42" rx="8" fill="rgba(56, 189, 248, 0.08)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="62" y="55" text-anchor="middle" class="badge-text">CBN</text>
+
+    <!-- Status pill on top right -->
+    <rect x="990" y="32" width="174" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+    <circle class="pulse-dot" cx="1008" cy="49" r="4" fill="#10b981"/>
+    <text x="1022" y="53" class="status-text">GIESSEN, GERMANY</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <g>
+    <text x="600" y="145" text-anchor="middle" class="name">CLINT BRYAN NGUENA</text>
+  </g>
+
+  <!-- Animated Subtitles -->
+  <g transform="translate(600, 205)">
+    <text x="0" y="0" class="role-text r0">&gt; Software Engineer &amp; AI Specialist_</text>
+    <text x="0" y="0" class="role-text r1">&gt; Autonomous Agents · RAG Architectures · Local SLMs_</text>
+    <text x="0" y="0" class="role-text r2">&gt; Computer Science @ THM Mittelhessen_</text>
+  </g>
+
+  <!-- Bottom Badges / Tech Focus Indicator -->
+  <g>
+    <line x1="300" y1="250" x2="900" y2="250" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="600" y="285" text-anchor="middle" class="tag">SOFTWARE ENGINEERING · APPLIED AI &amp; AGENTS · FULL-STACK SYSTEMS</text>
+  </g>
+</svg>
