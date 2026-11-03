@@ -1,5 +1,7 @@
-
-# Clint Bryan Nguena
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Clint Bryan Nguena, Software & AI" width="100%">
+</picture>
 
 ### `Software Engineer` · `AI Engineer` · `Computer Science @ THM`
 
